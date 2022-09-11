@@ -30,7 +30,7 @@ body {
 
 /*Determina a altura da área do contéudo do elemento// vh:todo o espaço da página*/
 .container {
-    height: 100vh;
+    height: 1000vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -41,8 +41,9 @@ body {
     border-radius: 5px;                  /*Modificando as bordas para que elas fiquem arredondadas*/
     padding: 1em;                        /*Margem interna// 1em é o tamanho da fonte*/
     color: var(--branco-principal);      /*Cor da fonte*/
-    display: block;                       /*Alinhando o botão*/
-    text-decoration: none;                /*Retirando a decoração do texto*/
+    display: block;                      /*Alinhando o botão*/
+    text-decoration: none;               /*Retirando a decoração do texto*/
+    margin-bottom: 1em;                  /*Margem entre os botões*/
 }
 
 .botao_secundario {
@@ -60,6 +61,10 @@ body {
     font-weight: 700;
 }
 
-.container__imagem {
-    margin: 1em 0 2em 0;
+.container__imagem {          /*Criando espaçamentos*/   
+    margin: 1em 0 2em 0;      /*Relógio sentido horário: margem no topo, lado direito, abaixo e esquerdo  */
+}
+
+.container__caixa {
+    margin: 0 6em;            /*0: topo e embaixo, 6em: esquerda e direita*/
 }
