@@ -19,7 +19,7 @@ body {
 
 /*O selecionador de classes é sempre um ponto (.)// repeat:evita espelhamento da imagem*/
 .principal {
-    background-image: url("Imagens/Background.png");
+    background-image: url("Imagens/Background.png");     /*Imagem decorativa*/
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -27,4 +27,13 @@ body {
 /*Determina a altura da área do contéudo do elemento// vh:todo o espaço da página*/
 .container {
     height: 100vh;
+}
+
+/*Primeiro botão*/
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;                  /*Modificando as bordas para que elas fiquem arredondadas*/
+    padding: 1em;                        /*Margem interna// 1em é o tamanho da fonte*/
+    color: var(--branco-principal);      /*Cor da fonte*/
+    display: block                       /*Alinhando o botão*/
 }
