@@ -27,6 +27,8 @@ body {
 /*Determina a altura da área do contéudo do elemento// vh:todo o espaço da página*/
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 /*Primeiro botão*/
@@ -36,4 +38,9 @@ body {
     padding: 1em;                        /*Margem interna// 1em é o tamanho da fonte*/
     color: var(--branco-principal);      /*Cor da fonte*/
     display: block                       /*Alinhando o botão*/
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border-radius: 2px solid var(--branco-principal);
 }
