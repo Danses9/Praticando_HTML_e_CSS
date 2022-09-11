@@ -47,7 +47,7 @@ body {
 
 .botao_secundario {
     background-color: transparent;                      /*Botão com o fundo transparente*/
-    border-radius: 2px solid var(--branco-principal);  /* Botão com a borda branca*/
+    border: 2px solid var(--branco-principal);  /* Botão com a borda branca*/
 }
 
 .container__aviso {
@@ -58,4 +58,8 @@ body {
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
 }
