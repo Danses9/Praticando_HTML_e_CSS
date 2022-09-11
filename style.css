@@ -13,6 +13,18 @@ body {
 
 /*Selecionando todos os elementos (*) // Padding define a distancia entre o conteúdo de um elemento e suas bordas*/
 * {
-    margin: 0;
+    margin:  0;
     padding: 0;
+}
+
+/*O selecionador de classes é sempre um ponto (.)// repeat:evita espelhamento da imagem*/
+.principal {
+    background-image: url("Imagens/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*Determina a altura da área do contéudo do elemento// vh:todo o espaço da página*/
+.container {
+    height: 100vh;
 }
