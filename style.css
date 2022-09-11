@@ -8,4 +8,11 @@
 
 body {
     background-color: var(--cor-de-fundo);
+    color:            var(--branco-principal);
+}
+
+/*Selecionando todos os elementos (*) // Padding define a distancia entre o conteúdo de um elemento e suas bordas*/
+* {
+    margin: 0;
+    padding: 0;
 }
